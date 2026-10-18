@@ -125,6 +125,6 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 ## 🙏 Acknowledgements
 
 This work builds upon:
-[KHU-VLL/DANCE](https://github.com/KHU-VLL/DANCE),
-[Trustworthy-ML-Lab/Label-free-CBM](https://github.com/Trustworthy-ML-Lab/Label-free-CBM),
-[Trustworthy-ML-Lab/Multi-Modal-CBM](https://github.com/Trustworthy-ML-Lab/Multi-Modal-CBM)
+[DANCE](https://github.com/KHU-VLL/DANCE),
+[Label-free-CBM](https://github.com/Trustworthy-ML-Lab/Label-free-CBM),
+[Multi-Modal-CBM](https://github.com/Trustworthy-ML-Lab/Multi-Modal-CBM)
