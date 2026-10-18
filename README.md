@@ -239,12 +239,5 @@ pretrained/
 
 This work builds upon [DANCE](https://github.com/KHU-VLL/DANCE),
 [Label-free CBM](https://github.com/Trustworthy-ML-Lab/Label-free-CBM),
-[MM-CBM](https://github.com/Trustworthy-ML-Lab/Multi-Modal-CBM),
-[VideoMAE](https://github.com/MCG-NJU/VideoMAE),
-[InternVideo2](https://github.com/OpenGVLab/InternVideo),
-[GLM-SAGA](https://github.com/MadryLab/glm_saga),
-[WAFT](https://github.com/princeton-vl/WAFT),
-[U²-Net](https://github.com/xuebinqin/U-2-Net),
-[FINCH](https://github.com/ssarfraz/FINCH-Clustering) and
-[Qwen3-VL](https://github.com/QwenLM/Qwen3-VL).
+[MM-CBM](https://github.com/Trustworthy-ML-Lab/Multi-Modal-CBM).
 Vendored code keeps its notices in `src/third_party/`.
