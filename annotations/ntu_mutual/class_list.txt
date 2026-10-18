@@ -1,0 +1,5 @@
+pushing_other_person
+hugging_other_person
+giving_something_to_other_person
+walking_towards_each_other
+walking_apart_from_each_other

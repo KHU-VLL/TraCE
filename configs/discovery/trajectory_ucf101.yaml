@@ -1,0 +1,35 @@
+# Trajectory-concept discovery settings of the released UCF-101 vocabulary
+# (Mt = 134, FINCH partition 7). Values come from the summary.json of the final
+# clustering run and the original shell scripts; "unknown" marks settings that
+# were not recorded. Paths are placeholders: override them on the command line.
+
+flow:
+  cfg: config/a1/tar-c-t.json
+  resize_short: -1        # original 320x240, all frames
+  batch_size: 64          # the UCF run used the batched bf16 variant of the flow script
+  amp_dtype: bf16
+  video_list: [annotations/ucf101/train.csv, annotations/ucf101/val.csv]
+
+masks:
+  resize_short: -1
+  video_list: [annotations/ucf101/train.csv, annotations/ucf101/val.csv]
+
+trajectories:
+  length: 16
+  num_segments: 3
+  compute_dtype: float32
+
+clustering:
+  sample_filter_csv: [annotations/ucf101/train.csv]   # 9,537 train videos clustered
+  motion_percentile: 95.0
+  path_length_dtype: stack
+  partition_levels: [7]   # paper level; the original run requested [4, 5, 6, 7, 8, 9] from the same FINCH hierarchy (levels are independent outputs)
+  faiss_nlist: 4096
+  faiss_nprobe: 32
+  faiss_train_size: 1000000
+  seed: 655
+  # released vocabulary: partition 7 -> 134 clusters (14,621,210 clustered trajectories)
+
+labels:
+  motion_percentile: 95.0
+  path_length_dtype: stack

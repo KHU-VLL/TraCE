@@ -1,0 +1,21 @@
+# TraCE action recognition: KTH (6 classes)
+# Values are those recorded in the args.txt of the released checkpoint run.
+dataset: kth
+annotation_dir: annotations/kth
+object_candidates: concepts/kth/object_candidates.txt
+scene_candidates: concepts/kth/scene_candidates.txt
+backbone:
+  name: videomae_vit_base_patch16_224
+  checkpoint: videomae_kth.pth  # fine-tuned from VideoMAE-B/16 SSv2 pre-training (Table 5)
+  num_frames: 16
+  sampling: segment          # see src/features/videomae.py
+  input_size: 224
+seed: 456
+proj_steps: 3000              # concept-layer optimization steps
+proj_batch_size: 50000        # larger than every train split, i.e. full batch
+clip_cutoff: 0.1               # activation cutoff (mean top-5 video-text similarity)
+interpretability_cutoff: 0.1   # projection cutoff (val cos^3 similarity)
+lam: 0.0007                   # GLM-SAGA lambda = lam / alpha
+n_iters: 30000                # GLM-SAGA epochs (stops earlier on tolerance)
+saga_batch_size: 128
+concept_prompt: "A video of {}"

@@ -1,0 +1,37 @@
+# Trajectory-concept discovery settings of the released TOMATO (direction subset)
+# vocabulary (Mt = 70, FINCH partition 8). Values come from the summary.json of
+# the final clustering run and the original shell scripts; "unknown" marks
+# settings that were not recorded. Paths are placeholders.
+
+flow:
+  cfg: config/a1/tar-c-t.json
+  resize_short: -1        # original resolution (up to 1920x1080), all frames
+  batch_size: 1
+  amp_dtype: fp32
+  video_list: [annotations/tomato/direction_ood_train.json, annotations/tomato/direction_ood_val.json]   # -> <demonstration_type>/<key>.mp4 under the TOMATO videos/ dir
+
+masks:
+  resize_short: -1
+  video_list: [annotations/tomato/direction_ood_train.json, annotations/tomato/direction_ood_val.json]
+
+trajectories:
+  length: 16
+  num_segments: 23
+  compute_dtype: float32  # unknown for this run
+
+clustering:
+  # the released run clustered the 318 videos of the earlier direction_train.json split; this release uses the OOD split
+  sample_filter_csv: [annotations/tomato/direction_ood_train.json]
+  motion_percentile: 95.0
+  path_length_dtype: stack
+  partition_levels: [8]   # paper level; the original run requested [4, 5, 6, 7, 8, 9] from the same FINCH hierarchy (levels are independent outputs)
+  faiss_nlist: 4096
+  faiss_nprobe: 32
+  faiss_train_size: 1000000
+  seed: 655
+  # released vocabulary: partition 8 -> 70 clusters (90,782,256 clustered trajectories)
+  # NOTE: the research TOMATO labels are binary multi-hot (h > 0), not h / ||h||_1.
+
+labels:
+  motion_percentile: 95.0
+  path_length_dtype: stack

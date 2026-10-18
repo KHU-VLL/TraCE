@@ -1,0 +1,38 @@
+# Trajectory-concept discovery settings of the released Chiral SSv2 vocabulary
+# (Mt = 154, FINCH partition 8). Values come from the summary.json of the final
+# clustering run and the original shell scripts; "unknown" marks settings that
+# were not recorded. Paths are placeholders: override them on the command line.
+
+flow:
+  cfg: config/a1/tar-c-t.json
+  resize_short: -1        # original resolution (short side 320 in the released stacks), all frames
+  batch_size: 1
+  amp_dtype: fp32
+  # the original run wrote train and val flows to <output_dir>/train and <output_dir>/val
+  video_list: [annotations/chiral_ssv2/train.csv, annotations/chiral_ssv2/val.csv]
+
+masks:
+  resize_short: -1        # masks stored at the video resolution; the SSv2 mask script was not preserved
+  video_list: [annotations/chiral_ssv2/train.csv, annotations/chiral_ssv2/val.csv]
+
+trajectories:
+  length: 16
+  num_segments: 3
+  compute_dtype: float32
+
+clustering:
+  # NOTE: the released run used NO sample filter: all 13,646 stacks (12,216 train + 1,430 val)
+  # were clustered. To cluster train videos only, set sample_filter_csv to the train split.
+  sample_filter_csv: null
+  motion_percentile: 95.0
+  path_length_dtype: float32  # earlier code version; verified to reproduce the selected trajectories of one video exactly
+  partition_levels: [8]   # paper level; the original run requested [7, 8, 9] from the same FINCH hierarchy (levels are independent outputs)
+  faiss_nlist: 4096
+  faiss_nprobe: 32
+  faiss_train_size: 1000000
+  seed: 655
+  # released vocabulary: partition 8 -> 154 clusters (56,858,757 clustered trajectories)
+
+labels:
+  motion_percentile: 95.0
+  path_length_dtype: stack    # the val labels were produced later with the float16 code version

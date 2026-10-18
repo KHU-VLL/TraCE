@@ -1,0 +1,6 @@
+modeling_finetune.py is taken from VideoMAE (https://github.com/MCG-NJU/VideoMAE),
+which builds on timm and BEiT. Changes: only the ViT-B/16 constructor is kept and
+the timm model registry decorators were removed.
+
+VideoMAE is released under CC BY-NC 4.0 (non-commercial). Check that this is
+compatible with the license chosen for this repository before release.

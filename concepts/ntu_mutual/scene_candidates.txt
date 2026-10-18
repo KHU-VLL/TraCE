@@ -1,0 +1,28 @@
+curtain
+computer lab
+studio
+reception area
+hallway
+meeting room
+warehouse
+interior
+ceiling
+lounge
+stage
+laboratory
+room
+server room
+wall
+white wall
+computer desk
+living room
+waiting room
+door
+classroom
+office
+indoor space
+workspace
+storage room
+window
+carpet
+cityscape

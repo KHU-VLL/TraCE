@@ -1,0 +1,36 @@
+# Trajectory-concept discovery settings of the released NTU RGB+D Mutual vocabulary
+# (Mt = 121, FINCH partition 7). Values come from the summary.json of the final
+# clustering run and the original shell scripts; "unknown" marks settings that
+# were not recorded. Paths are placeholders: override them on the command line.
+# Sections are read by tools/discovery/*.py via --config.
+
+flow:            # extract_flow_waft.py
+  cfg: config/a1/tar-c-t.json
+  resize_short: 480       # short side resized to 480 (aspect kept), all frames
+  batch_size: 1           # one pair per forward pass, fp32
+  amp_dtype: fp32
+  video_list: [annotations/ntu_mutual/train.csv, annotations/ntu_mutual/val.csv]
+
+masks:           # foreground_masks_u2net.py
+  resize_short: 480       # inferred from the stored mask resolution (480x852); the NTU-5 mask script was not preserved
+  video_list: [annotations/ntu_mutual/train.csv, annotations/ntu_mutual/val.csv]
+
+trajectories:    # build_trajectories.py
+  length: 16              # L (stack shape (5, 16, 480, 852, 2))
+  num_segments: 5         # Ns
+  compute_dtype: float32  # assumed (generic wrapper); unknown for this run
+
+clustering:      # cluster_trajectories.py
+  sample_filter_csv: [annotations/ntu_mutual/train.csv]   # 3360 train videos clustered
+  motion_percentile: 95.0 # rho = 5%
+  path_length_dtype: stack   # code version of the final run (float16 step differences)
+  partition_levels: [7]   # paper level; the original run requested [4, 5, 6, 7, 8, 9] from the same FINCH hierarchy (levels are independent outputs)
+  faiss_nlist: 4096
+  faiss_nprobe: 32
+  faiss_train_size: 1000000
+  seed: 655
+  # released vocabulary: partition 7 -> 121 clusters (21,717,450 clustered trajectories)
+
+labels:          # trajectory_soft_labels.py
+  motion_percentile: 95.0
+  path_length_dtype: stack

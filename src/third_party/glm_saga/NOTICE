@@ -1,0 +1,4 @@
+elasticnet.py is the GLM-SAGA elastic-net solver of
+Wong, Santurkar and Madry, "Leveraging Sparse Linear Layers for Debuggable Deep
+Networks" (https://github.com/MadryLab/glm_saga, MIT License), in the modified
+form used by Label-Free CBM / DANCE (adds the `multiview` option).

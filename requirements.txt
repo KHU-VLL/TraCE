@@ -1,0 +1,20 @@
+torch==2.5.1
+torchvision==0.20.1
+numpy>=1.26,<2.3
+timm==0.4.12
+einops==0.8.1
+transformers==4.57.1
+opencv-python==4.10.0.84
+decord==0.6.0
+scipy==1.15.3
+scikit-learn==1.7.1
+PyYAML==6.0.2
+matplotlib==3.10.0
+tqdm==4.67.1
+jupyter
+ipykernel
+# concept discovery
+finch-clust==0.2.2
+faiss-cpu>=1.8
+sentence-transformers==5.1.2
+qwen-vl-utils

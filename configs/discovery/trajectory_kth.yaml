@@ -1,0 +1,37 @@
+# Trajectory-concept discovery settings of the released KTH vocabulary
+# (Mt = 111, FINCH partition 5). Values come from the summary.json of the final
+# clustering run; this run used an earlier version of the research code and its
+# launch script was not preserved, so several settings are unknown.
+# Paths are placeholders: override them on the command line.
+
+flow:
+  cfg: config/a1/tar-c-t.json
+  resize_short: -1        # original 160x120, all frames
+  batch_size: 1
+  amp_dtype: fp32
+  video_list: null        # the original run processed every video file under the video root
+
+masks:
+  resize_short: -1
+  video_list: null
+
+trajectories:
+  length: 10              # NOTE: L = 10 (stack shape (6, 10, 120, 160, 2)), not 16 as listed in Table 7
+  num_segments: 6
+  compute_dtype: float32  # unknown for this run
+
+clustering:
+  # NOTE: the released run clustered all 2,391 videos (1,528 train + 863 val).
+  sample_filter_csv: null
+  motion_percentile: 95.0
+  path_length_dtype: float32  # inferred from the code version at the time of the run (not verified)
+  partition_levels: [5]   # paper level; the full list of levels requested by the original run is unknown
+  faiss_nlist: 4096
+  faiss_nprobe: 32
+  faiss_train_size: 1000000
+  seed: 655
+  # released vocabulary: partition 5 -> 111 clusters (820,852 clustered trajectories)
+
+labels:
+  motion_percentile: 95.0
+  path_length_dtype: stack

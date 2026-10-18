@@ -1,0 +1,21 @@
+# TraCE action recognition: Chiral SSv2 (32 classes)
+# Values are those recorded in the args.txt of the released checkpoint run.
+dataset: chiral_ssv2
+annotation_dir: annotations/chiral_ssv2
+object_candidates: concepts/chiral_ssv2/object_candidates.txt
+scene_candidates: concepts/chiral_ssv2/scene_candidates.txt
+backbone:
+  name: videomae_vit_base_patch16_224
+  checkpoint: videomae_ssv2_finetune.pth  # official VideoMAE ViT-B/16 SSv2 fine-tuned weights
+  num_frames: 16
+  sampling: segment          # see src/features/videomae.py
+  input_size: 224
+seed: 456
+proj_steps: 3000              # concept-layer optimization steps
+proj_batch_size: 50000        # larger than every train split, i.e. full batch
+clip_cutoff: 0.2               # activation cutoff (mean top-5 video-text similarity)
+interpretability_cutoff: 0.3   # projection cutoff (val cos^3 similarity)
+lam: 0.0007                   # GLM-SAGA lambda = lam / alpha
+n_iters: 30000                # GLM-SAGA epochs (stops earlier on tolerance)
+saga_batch_size: 128
+concept_prompt: "A video of {}"

@@ -1,0 +1,12 @@
+internvideo2.py, pos_embed.py, config_bert_large.json and bert/ are taken from the
+InternVideo2 code of OpenGVLab (https://github.com/OpenGVLab/InternVideo,
+InternVideo2/multi_modality, MC-QA demo variant).
+
+* bert/xbert.py and bert/tokenization_bert.py derive from Hugging Face Transformers
+  (Apache-2.0, headers kept) via ALBEF/BLIP (BSD-3-Clause, Salesforce).
+* Changes: pretrain_internvideo2_1b_patch14_224() no longer loads a checkpoint
+  itself (weights are loaded once by src.features.internvideo2), and the
+  flash-attention import warnings were silenced. Model code is otherwise unchanged.
+
+License of the upstream repository: to be confirmed before release (the local
+copy used for the research had no LICENSE file).

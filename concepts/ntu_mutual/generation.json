@@ -1,0 +1,62 @@
+{
+  "dataset": "ntu_mutual",
+  "generator": {
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "hf_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+    "decoding": "greedy (do_sample=False)",
+    "max_new_tokens": 256,
+    "frames": "ffmpeg at 2 fps, at most 2048 frames, passed as a frame list to qwen_vl_utils",
+    "total_pixels": 20971520,
+    "min_pixels": 65536,
+    "attn_implementation": "sdpa",
+    "dtype": "auto"
+  },
+  "prompts": {
+    "object": "object_v1 (src/discovery/text/prompts.py, paper Fig. 9a)",
+    "scene": "scene_v1 (src/discovery/text/prompts.py, paper Fig. 9b)"
+  },
+  "videos": "annotations/ntu_mutual/train.csv (3360 train videos)",
+  "filters": {
+    "length": "<= 30 characters",
+    "redundancy": "(MPNet all-mpnet-base-v2 + 3 * CLIP ViT-B/16) / 4 >= 0.9, LF-CBM rule (cutoff not logged; 0.9 inferred by re-running)",
+    "activation_and_projection": "not applied to these files (applied inside AR training)"
+  },
+  "used_by": [
+    "AR",
+    "VQA (AR->QA)"
+  ],
+  "counts": {
+    "object": {
+      "videos_queried": 3360,
+      "videos_ok": 3360,
+      "unique_parsed_candidates": 91,
+      "after_length_filter": 91,
+      "released_candidates": 80,
+      "table7_after_filtering": 55
+    },
+    "scene": {
+      "videos_queried": 3360,
+      "videos_ok": 3360,
+      "unique_parsed_candidates": 33,
+      "after_length_filter": 33,
+      "released_candidates": 28,
+      "table7_after_filtering": 28
+    }
+  },
+  "ar_training_filters": {
+    "clip_cutoff": 0.2,
+    "interpretability_cutoff": 0.3,
+    "table7_activation_projection": [
+      0.3,
+      0.2
+    ]
+  },
+  "files": {
+    "object": "object_candidates.txt",
+    "scene": "scene_candidates.txt",
+    "raw": [
+      "raw/object_v1_results.jsonl",
+      "raw/scene_v1_results.jsonl"
+    ]
+  }
+}

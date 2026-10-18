@@ -1,0 +1,2008 @@
+{
+  "241": {
+    "question": "In which direction(s) did the roller coaster move during the video?",
+    "options": [
+      "Downwards then upwards",
+      "Upwards then downwards.",
+      "Upwards then leftwards.",
+      "Upwards then rightwards.",
+      "Rightwards then leftwards.",
+      "Rightwards then upwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=pn-Exx7_KLE",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "roller coaster; first person view",
+    "key": "0338-00"
+  },
+  "242": {
+    "question": "In which direction(s) did the drone move during the video?",
+    "options": [
+      "Leftwards then upwards.",
+      "Rightwards then upwards.",
+      "Downwards then leftwards",
+      "Rightwards then downwards.",
+      "Leftwards then downwards.",
+      "Rightwards then leftwards."
+    ],
+    "answer": 5,
+    "video_source_url": "https://www.youtube.com/watch?v=ygtreF12Hks",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "drone over the table",
+    "key": "0339-00"
+  },
+  "243": {
+    "question": "In which direction(s) did the drone move during the video?",
+    "options": [
+      "Downwards then rightwards",
+      "Upwards then downwards.",
+      "Rightwards then upwards.",
+      "Rightwards then leftwards.",
+      "Leftwards then upwards.",
+      "Rightwards then downwards."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=ygtreF12Hks",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "flying drones",
+    "key": "0341-00"
+  },
+  "246": {
+    "question": "In which direction(s) did the drone move during the video?",
+    "options": [
+      "Upwards then downwards.",
+      "Rightwards then downwards.",
+      "Downwards then rightwards",
+      "Leftwards then upwards.",
+      "Downwards then leftwards",
+      "Leftwards then rightwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=ygtreF12Hks",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0353-00"
+  },
+  "247": {
+    "question": "In which direction(s) did the drone move during the video?",
+    "options": [
+      "Leftwards then downwards.",
+      "Rightwards then upwards.",
+      "Leftwards then upwards.",
+      "Upwards then leftwards.",
+      "Downwards then upwards",
+      "Downwards then rightwards"
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=ygtreF12Hks",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0356-00"
+  },
+  "249": {
+    "question": "In which direction(s) did the dog move during the video?",
+    "options": [
+      "Leftwards then rightwards.",
+      "Upwards then rightwards.",
+      "Rightwards then upwards.",
+      "Upwards then leftwards.",
+      "Downwards then leftwards",
+      "Downwards then rightwards"
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0370-00"
+  },
+  "250": {
+    "question": "How would you describe the dog's movement pattern directionally?",
+    "options": [
+      "Downwards then upwards",
+      "Rightwards then upwards.",
+      "Upwards then rightwards.",
+      "Leftwards then rightwards.",
+      "Downwards then rightwards",
+      "Rightwards then leftwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0371-00"
+  },
+  "251": {
+    "question": "How would you describe the dog's movement pattern directionally?",
+    "options": [
+      "Rightwards then upwards.",
+      "Downwards then upwards",
+      "Upwards then downwards.",
+      "Leftwards then upwards.",
+      "Rightwards then downwards.",
+      "Leftwards then rightwards."
+    ],
+    "answer": 5,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0370-01"
+  },
+  "252": {
+    "question": "How would you describe the dog's movement pattern directionally?",
+    "options": [
+      "Downwards then leftwards",
+      "Upwards then rightwards.",
+      "Downwards then rightwards",
+      "Leftwards then downwards.",
+      "Rightwards then leftwards.",
+      "Leftwards then rightwards."
+    ],
+    "answer": 5,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0371-01"
+  },
+  "255": {
+    "question": "How would you describe the skater's movement pattern directionally?",
+    "options": [
+      "Leftwards then rightwards.",
+      "Rightwards then leftwards.",
+      "Leftwards then downwards.",
+      "Upwards then leftwards.",
+      "Upwards then downwards.",
+      "Upwards then rightwards."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=AY-sCGAfjH8",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0376-00"
+  },
+  "256": {
+    "question": "How would you describe the skater's movement pattern directionally?",
+    "options": [
+      "Upwards then rightwards.",
+      "Leftwards then rightwards.",
+      "Upwards then leftwards.",
+      "Rightwards then leftwards.",
+      "Rightwards then downwards.",
+      "Downwards then upwards"
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=AY-sCGAfjH8",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0376-01"
+  },
+  "257": {
+    "question": "How would you describe the camera's movement pattern directionally?",
+    "options": [
+      "Leftwards then rightwards.",
+      "Downwards then leftwards",
+      "Rightwards then leftwards.",
+      "Leftwards then downwards.",
+      "Upwards then leftwards.",
+      "Rightwards then upwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=CP5k2gRabvc&t=6s",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "safari; zebra",
+    "key": "0380-00"
+  },
+  "258": {
+    "question": "How would you describe the camera's movement pattern directionally?",
+    "options": [
+      "Downwards then upwards",
+      "Upwards then leftwards.",
+      "Leftwards then rightwards.",
+      "Downwards then rightwards",
+      "Upwards then downwards.",
+      "Leftwards then upwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=CP5k2gRabvc&t=6s",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "safari; zebra",
+    "key": "0380-01"
+  },
+  "260": {
+    "question": "How would you describe the motorcyclist's movement pattern directionally?",
+    "options": [
+      "Downwards then rightwards",
+      "Rightwards then leftwards.",
+      "Leftwards then downwards.",
+      "Leftwards then rightwards.",
+      "Leftwards then upwards.",
+      "Upwards then downwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=PkRp4Hz8cCo",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0383-00"
+  },
+  "261": {
+    "question": "What directional shifts can be observed in the motorcyclist's motion from the footage?",
+    "options": [
+      "Downwards then leftwards",
+      "Downwards then upwards",
+      "Upwards then leftwards.",
+      "Rightwards then downwards.",
+      "Upwards then downwards.",
+      "Leftwards then upwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=PkRp4Hz8cCo",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0383-01"
+  },
+  "262": {
+    "question": "What directional shifts can be observed in the motorcyclist's motion from the footage?",
+    "options": [
+      "Leftwards then downwards.",
+      "Rightwards then leftwards.",
+      "Downwards then rightwards",
+      "Rightwards then downwards.",
+      "Upwards then downwards.",
+      "Downwards then upwards"
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=PkRp4Hz8cCo",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0383-02"
+  },
+  "263": {
+    "question": "What directional shifts can be observed in the hands' motion from the footage?",
+    "options": [
+      "Downwards then rightwards",
+      "Upwards then downwards.",
+      "Downwards then upwards",
+      "Upwards then leftwards.",
+      "Leftwards then rightwards.",
+      "Rightwards then leftwards."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=hbqf5ZjE_-w",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0386-00"
+  },
+  "264": {
+    "question": "What directional shifts can be observed in the hands' motion from the footage?",
+    "options": [
+      "Upwards then downwards.",
+      "Leftwards then downwards.",
+      "Rightwards then leftwards.",
+      "Downwards then upwards",
+      "Rightwards then upwards.",
+      "Rightwards then downwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=hbqf5ZjE_-w",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0386-01"
+  },
+  "265": {
+    "question": "What directional shifts can be observed in the helicopter's motion from the footage?",
+    "options": [
+      "Leftwards then rightwards.",
+      "Downwards then upwards",
+      "Upwards then leftwards.",
+      "Downwards then leftwards",
+      "Rightwards then leftwards.",
+      "Upwards then downwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=3ZnjtdFWO3E",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0297-01"
+  },
+  "266": {
+    "question": "What directional shifts can be observed in the helicopter's motion from the footage?",
+    "options": [
+      "Downwards then rightwards",
+      "Rightwards then upwards.",
+      "Leftwards then upwards.",
+      "Leftwards then rightwards.",
+      "Upwards then downwards.",
+      "Leftwards then downwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=3ZnjtdFWO3E",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0297-02"
+  },
+  "267": {
+    "question": "What directional shifts can be observed in the helicopter's motion from the footage?",
+    "options": [
+      "Downwards then upwards",
+      "Leftwards then downwards.",
+      "Downwards then leftwards",
+      "Upwards then leftwards.",
+      "Upwards then downwards.",
+      "Leftwards then upwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=-Rtd4ZyKZy0",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0390-00"
+  },
+  "268": {
+    "question": "What directional shifts can be observed in the helicopter's motion from the footage?",
+    "options": [
+      "Upwards then leftwards.",
+      "Leftwards then downwards.",
+      "Rightwards then leftwards.",
+      "Downwards then upwards",
+      "Upwards then downwards.",
+      "Upwards then rightwards."
+    ],
+    "answer": 5,
+    "video_source_url": "https://www.youtube.com/watch?v=-Rtd4ZyKZy0",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0390-01"
+  },
+  "269": {
+    "question": "What directional shifts can be observed in the helicopter's motion from the footage?",
+    "options": [
+      "Upwards then downwards.",
+      "Leftwards then rightwards.",
+      "Leftwards then upwards.",
+      "Downwards then rightwards",
+      "Rightwards then upwards.",
+      "Rightwards then downwards."
+    ],
+    "answer": 5,
+    "video_source_url": "https://www.youtube.com/watch?v=-Rtd4ZyKZy0",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0390-02"
+  },
+  "270": {
+    "question": "What directional shifts can be observed in the barbell's motion from the footage?",
+    "options": [
+      "Rightwards then leftwards.",
+      "Leftwards then upwards.",
+      "Upwards then downwards.",
+      "Upwards then leftwards.",
+      "Rightwards then upwards.",
+      "Downwards then upwards"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=q0oofcNalyo",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0393-00"
+  },
+  "271": {
+    "question": "What was the directional trend of the dumbell's movement throughout the clip?",
+    "options": [
+      "Upwards then downwards.",
+      "Downwards then rightwards",
+      "Downwards then upwards",
+      "Upwards then rightwards.",
+      "Leftwards then upwards.",
+      "Leftwards then rightwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=HfSrnJpt2k4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0394-00"
+  },
+  "272": {
+    "question": "What was the directional trend of the plant's movement throughout the clip?",
+    "options": [
+      "Upwards then downwards.",
+      "Rightwards then leftwards.",
+      "Leftwards then rightwards.",
+      "Rightwards then upwards.",
+      "Downwards then leftwards",
+      "Upwards then leftwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=EoXQBQR5OaE",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0395-00"
+  },
+  "273": {
+    "question": "What was the directional trend of the plant's movement throughout the clip?",
+    "options": [
+      "Rightwards then leftwards.",
+      "Rightwards then upwards.",
+      "Downwards then leftwards",
+      "Leftwards then rightwards.",
+      "Downwards then upwards",
+      "Leftwards then downwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=EoXQBQR5OaE",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0395-01"
+  },
+  "274": {
+    "question": "What was the directional trend of the football's movement throughout the clip?",
+    "options": [
+      "Rightwards then downwards.",
+      "Upwards then leftwards.",
+      "Rightwards then leftwards.",
+      "Upwards then rightwards.",
+      "Upwards then downwards.",
+      "Leftwards then upwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=yABGhqHBOww",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "football",
+    "key": "0397-00"
+  },
+  "275": {
+    "question": "What was the directional trend of the football's movement throughout the clip?",
+    "options": [
+      "Downwards then leftwards",
+      "Rightwards then upwards.",
+      "Downwards then upwards",
+      "Downwards then rightwards",
+      "Upwards then rightwards.",
+      "Leftwards then downwards."
+    ],
+    "answer": 5,
+    "video_source_url": "https://www.youtube.com/watch?v=yABGhqHBOww",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0397-01"
+  },
+  "276": {
+    "question": "What was the directional trend of the toy car's movement throughout the clip?",
+    "options": [
+      "Upwards then downwards.",
+      "Upwards then rightwards.",
+      "Rightwards then upwards.",
+      "Downwards then leftwards",
+      "Leftwards then rightwards.",
+      "Downwards then upwards"
+    ],
+    "answer": 4,
+    "video_source_url": "https://www.youtube.com/watch?v=bNq60yuTRf8",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0399-00"
+  },
+  "277": {
+    "question": "What was the directional trend of the toy car's movement throughout the clip?",
+    "options": [
+      "Upwards then rightwards.",
+      "Downwards then leftwards",
+      "Leftwards then rightwards.",
+      "Rightwards then leftwards.",
+      "Leftwards then upwards.",
+      "Downwards then upwards"
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=bNq60yuTRf8",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0399-01"
+  },
+  "280": {
+    "question": "What was the directional trend of the camera's movement throughout the clip?",
+    "options": [
+      "Backward",
+      "No movement",
+      "Forward"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=mMRNS3XJmgU",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0295-00"
+  },
+  "281": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "Backward",
+      "Forward",
+      "No movement"
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=mMRNS3XJmgU",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0372-00"
+  },
+  "282": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "No movement",
+      "Backward",
+      "Forward"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=mMRNS3XJmgU",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0373-00"
+  },
+  "283": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "No movement",
+      "Forward",
+      "Backward"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=mMRNS3XJmgU",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0375-00"
+  },
+  "284": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "No movement",
+      "Backward",
+      "Forward"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=mMRNS3XJmgU",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0377-00"
+  },
+  "286": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "Backward",
+      "No movement",
+      "Forward"
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=JQAmZeMrnjI&t=226s",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0384-00"
+  },
+  "287": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "No movement",
+      "Backward",
+      "Forward"
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=v0QjWzhewYQ",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0385-00"
+  },
+  "288": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "Forward",
+      "No movement",
+      "Backward"
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=0zCm_-NuTu4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0387-00"
+  },
+  "289": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "Forward",
+      "Backward",
+      "No movement"
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=ENIRIODDbbw",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0388-00"
+  },
+  "291": {
+    "question": "In what direction did the camera move?",
+    "options": [
+      "Forward",
+      "No movement",
+      "Backward"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=ENIRIODDbbw",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0391-00"
+  },
+  "293": {
+    "question": "In what direction did the camera move?",
+    "options": [
+      "No movement",
+      "Backward",
+      "Forward"
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=i1QrJsOMY4k",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0396-00"
+  },
+  "294": {
+    "question": "In what direction did the camera move?",
+    "options": [
+      "Backward",
+      "No movement",
+      "Forward"
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=UgXVVV72dp8",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0398-00"
+  },
+  "295": {
+    "question": "In what direction did the buck move?",
+    "options": [
+      "Away from the camera.",
+      "No movement.",
+      "Towards the camera."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=ZtTAk13G9h4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0400-00"
+  },
+  "296": {
+    "question": "In what direction did the buck move?",
+    "options": [
+      "Away from the camera.",
+      "No movement.",
+      "Towards the camera."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=ZtTAk13G9h4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0400-01"
+  },
+  "298": {
+    "question": "In what direction did the buck move?",
+    "options": [
+      "No movement.",
+      "Away from the camera.",
+      "Towards the camera."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=ZtTAk13G9h4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0407-00"
+  },
+  "299": {
+    "question": "In what direction did the buck move?",
+    "options": [
+      "Away from the camera.",
+      "Towards the camera.",
+      "No movement."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=ZtTAk13G9h4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0407-01"
+  },
+  "300": {
+    "question": "In what direction did the bear move?",
+    "options": [
+      "Away from the camera.",
+      "Towards the camera.",
+      "No movement.",
+      "Towards the camera, then away from the camera.",
+      "Away from the camera, then towards the camera."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=ZtTAk13G9h4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0409-00"
+  },
+  "301": {
+    "question": "Which direction did the bear follow?",
+    "options": [
+      "Away from the camera.",
+      "Away from the camera, then towards the camera.",
+      "Towards the camera, then away from the camera.",
+      "Towards the camera.",
+      "No movement."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=ZtTAk13G9h4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0409-01"
+  },
+  "302": {
+    "question": "Which direction did the coca cola can follow?",
+    "options": [
+      "Away from the camera.",
+      "Towards the camera.",
+      "No movement."
+    ],
+    "answer": 1,
+    "video_source_url": "",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0414-00"
+  },
+  "303": {
+    "question": "Which direction did the coca cola can follow?",
+    "options": [
+      "Away from the camera.",
+      "No movement.",
+      "Towards the camera."
+    ],
+    "answer": 0,
+    "video_source_url": "",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0414-01"
+  },
+  "304": {
+    "question": "Which direction did the marker follow?",
+    "options": [
+      "Towards the camera.",
+      "No movement.",
+      "Away from the camera."
+    ],
+    "answer": 0,
+    "video_source_url": "",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0522-00"
+  },
+  "305": {
+    "question": "Which direction did the marker follow?",
+    "options": [
+      "No movement.",
+      "Towards the camera.",
+      "Away from the camera."
+    ],
+    "answer": 2,
+    "video_source_url": "",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0522-01"
+  },
+  "306": {
+    "question": "Which direction did the person follow?",
+    "options": [
+      "Towards the camera.",
+      "Away from the camera.",
+      "No movement."
+    ],
+    "answer": 1,
+    "video_source_url": "",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0526-00"
+  },
+  "307": {
+    "question": "Which direction did the person follow?",
+    "options": [
+      "No movement.",
+      "Towards the camera.",
+      "Away from the camera."
+    ],
+    "answer": 1,
+    "video_source_url": "",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0526-01"
+  },
+  "308": {
+    "question": "Which direction did the person follow?",
+    "options": [
+      "Away from the camera.",
+      "No movement.",
+      "Towards the camera."
+    ],
+    "answer": 0,
+    "video_source_url": "",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0526-02"
+  },
+  "334": {
+    "question": "Where did the bird go?",
+    "options": [
+      "Downwards.",
+      "Leftwards.",
+      "Upwards.",
+      "No movements.",
+      "Rightwards."
+    ],
+    "answer": 4,
+    "video_source_url": "https://www.youtube.com/watch?v=tg37ecXooD8",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0235-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "335": {
+    "question": "Where did the bird go?",
+    "options": [
+      "Downwards.",
+      "Rightwards.",
+      "Upwards.",
+      "No movements.",
+      "Leftwards."
+    ],
+    "answer": 4,
+    "video_source_url": "https://www.youtube.com/watch?v=tg37ecXooD8",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0235-01",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "336": {
+    "question": "What is the direction of the camera's movement?",
+    "options": [
+      "No movements.",
+      "Rightwards.",
+      "Downwards.",
+      "Upwards.",
+      "Leftwards."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=CP5k2gRabvc",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0237-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "note": ""
+  },
+  "338": {
+    "question": "What is the direction of the dog's movement from the video?",
+    "options": [
+      "No movements.",
+      "Leftwards.",
+      "Rightwards.",
+      "Upwards.",
+      "Downwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0239-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "339": {
+    "question": "What is the direction of the dog's movement from the video?",
+    "options": [
+      "Leftwards.",
+      "Upwards.",
+      "Downwards.",
+      "Rightwards.",
+      "No movements."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0239-01",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "340": {
+    "question": "What is the direction of the dog's movement from the video?",
+    "options": [
+      "Leftwards.",
+      "No movements.",
+      "Downwards.",
+      "Rightwards.",
+      "Upwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0241-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "341": {
+    "question": "What is the direction of the dog's movement from the video?",
+    "options": [
+      "Downwards.",
+      "Rightwards.",
+      "Upwards.",
+      "No movements.",
+      "Leftwards."
+    ],
+    "answer": 4,
+    "video_source_url": "https://www.youtube.com/watch?v=cyaRkOXDhOk",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0241-01",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "342": {
+    "question": "What is the direction of the cat's movement from the video?",
+    "options": [
+      "Leftwards.",
+      "Upwards.",
+      "Downwards.",
+      "Rightwards.",
+      "No movements."
+    ],
+    "answer": 4,
+    "video_source_url": "https://www.youtube.com/watch?v=ExnWRuniooY",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0243-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "343": {
+    "question": "What is the direction of the cat's movement from the video?",
+    "options": [
+      "No movements.",
+      "Leftwards.",
+      "Downwards.",
+      "Rightwards.",
+      "Upwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=ExnWRuniooY",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0244-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "344": {
+    "question": "What is the direction of the cat's movement from the video?",
+    "options": [
+      "No movements.",
+      "Leftwards.",
+      "Downwards.",
+      "Rightwards.",
+      "Upwards."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=ExnWRuniooY",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0244-01",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "345": {
+    "question": "What is the direction of the dog's movement from the video?",
+    "options": [
+      "Downwards.",
+      "No movements.",
+      "Leftwards.",
+      "Rightwards.",
+      "Upwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=jAEuvmnWE_Y",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0246-00",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "346": {
+    "question": "In what direction did the car move?",
+    "options": [
+      "Leftwards.",
+      "No movements.",
+      "Downwards.",
+      "Rightwards.",
+      "Upwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=8u0tTaACYqQ",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0247-00",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "347": {
+    "question": "In what direction did the car move?",
+    "options": [
+      "Leftwards.",
+      "Downwards.",
+      "Rightwards.",
+      "Upwards.",
+      "No movements."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=8u0tTaACYqQ",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0248-00",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "348": {
+    "question": "In what direction did the car move?",
+    "options": [
+      "Upwards.",
+      "Rightwards.",
+      "Leftwards.",
+      "Downwards.",
+      "No movements."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=8u0tTaACYqQ",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0249-00",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "349": {
+    "question": "In what direction did the car move?",
+    "options": [
+      "Downwards.",
+      "Rightwards.",
+      "Upwards.",
+      "No movements.",
+      "Leftwards."
+    ],
+    "answer": 4,
+    "video_source_url": "https://www.youtube.com/watch?v=8u0tTaACYqQ",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0250-00",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "352": {
+    "question": "In what direction did the paper clip move?",
+    "options": [
+      "Rightwards.",
+      "Leftwards.",
+      "No movements.",
+      "Upwards.",
+      "Downwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=uHQtOalFwSA",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0280-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "353": {
+    "question": "In what direction did the paper clip move?",
+    "options": [
+      "Downwards.",
+      "Upwards.",
+      "Rightwards.",
+      "No movements.",
+      "Leftwards."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=uHQtOalFwSA",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0280-01",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "354": {
+    "question": "In what direction did the elevator move?",
+    "options": [
+      "Leftwards.",
+      "No movements.",
+      "Rightwards.",
+      "Downwards.",
+      "Upwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=F6dBVmW7Yhk",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0282-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "355": {
+    "question": "In what direction did the elevator move?",
+    "options": [
+      "Leftwards.",
+      "No movements.",
+      "Downwards.",
+      "Upwards.",
+      "Rightwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=F6dBVmW7Yhk",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0282-01",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "244": {
+    "question": "In which direction(s) did the drone move during the video?",
+    "options": [
+      "Downwards then rightwards",
+      "Downwards then leftwards",
+      "Upwards then leftwards.",
+      "Upwards then rightwards.",
+      "Leftwards then upwards.",
+      "Rightwards then upwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=ygtreF12Hks",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0343-00"
+  },
+  "245": {
+    "question": "In which direction(s) did the drone move during the video?",
+    "options": [
+      "Leftwards then downwards.",
+      "Downwards then leftwards",
+      "Rightwards then upwards.",
+      "Downwards then rightwards",
+      "Upwards then downwards.",
+      "Rightwards then leftwards."
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=ygtreF12Hks",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0348-00"
+  },
+  "248": {
+    "question": "In which direction(s) did the drone move during the video?",
+    "options": [
+      "Rightwards then leftwards.",
+      "Downwards then upwards",
+      "Leftwards then upwards.",
+      "Leftwards then rightwards.",
+      "Downwards then rightwards",
+      "Upwards then downwards."
+    ],
+    "answer": 5,
+    "video_source_url": "https://www.youtube.com/watch?v=ygtreF12Hks",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0369-00"
+  },
+  "253": {
+    "question": "How would you describe the skater's movement pattern directionally?",
+    "options": [
+      "Leftwards then rightwards.",
+      "Rightwards then leftwards.",
+      "Downwards then rightwards",
+      "Downwards then leftwards",
+      "Upwards then leftwards.",
+      "Upwards then downwards."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=AY-sCGAfjH8",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "skating",
+    "key": "0374-00"
+  },
+  "254": {
+    "question": "How would you describe the skater's movement pattern directionally?",
+    "options": [
+      "Downwards then upwards",
+      "Leftwards then upwards.",
+      "Rightwards then downwards.",
+      "Leftwards then downwards.",
+      "Rightwards then leftwards.",
+      "Leftwards then rightwards."
+    ],
+    "answer": 4,
+    "video_source_url": "https://www.youtube.com/watch?v=AY-sCGAfjH8",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0374-01"
+  },
+  "259": {
+    "question": "In which direction does the coyote's head move in the video?",
+    "options": [
+      "Leftwards then downwards.",
+      "Rightwards then downwards.",
+      "Leftwards then rightwards.",
+      "Rightwards then upwards.",
+      "Downwards then rightwards",
+      "Upwards then rightwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=CP5k2gRabvc&t=6s",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "coyote",
+    "key": "0382-00"
+  },
+  "279": {
+    "question": "What was the directional trend of the camera's movement throughout the clip?",
+    "options": [
+      "Rightwards then downwards.",
+      "Upwards then rightwards.",
+      "Downwards then rightwards",
+      "Rightwards then leftwards.",
+      "Leftwards then rightwards.",
+      "Leftwards then upwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=3pza_PqIGFg",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 1,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0402-00"
+  },
+  "285": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "Forward",
+      "Backward",
+      "No movement"
+    ],
+    "answer": 0,
+    "video_source_url": "https://www.youtube.com/watch?v=PkRp4Hz8cCo&t=582s",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0381-00"
+  },
+  "290": {
+    "question": "Which way did the camera move?",
+    "options": [
+      "No movement",
+      "Forward",
+      "Backward"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=ENIRIODDbbw",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0389-00"
+  },
+  "292": {
+    "question": "In what direction did the camera move?",
+    "options": [
+      "No movement",
+      "Forward",
+      "Backward"
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=ENIRIODDbbw",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0392-00"
+  },
+  "297": {
+    "question": "In what direction did the buck move?",
+    "options": [
+      "Away from the camera.",
+      "Towards the camera.",
+      "No movement."
+    ],
+    "answer": 1,
+    "video_source_url": "https://www.youtube.com/watch?v=ZtTAk13G9h4",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0404-00"
+  },
+  "309": {
+    "question": "Which direction did the ball wheel follow?",
+    "options": [
+      "Towards the camera.",
+      "No movement.",
+      "Away from the camera."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=b6o7P0zbmCg",
+    "motion_type": "direction",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 1
+    },
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0533-00"
+  },
+  "333": {
+    "question": "Where did the bird go?",
+    "options": [
+      "Leftwards.",
+      "Upwards.",
+      "No movements.",
+      "Rightwards.",
+      "Downwards."
+    ],
+    "answer": 2,
+    "video_source_url": "https://www.youtube.com/watch?v=tg37ecXooD8",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0233-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "337": {
+    "question": "What is the direction of the penguins' movement from the video?",
+    "options": [
+      "Upwards.",
+      "Downwards.",
+      "No movements.",
+      "Leftwards.",
+      "Rightwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=CP5k2gRabvc",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0238-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "350": {
+    "question": "In what direction did the camera move?",
+    "options": [
+      "Upwards.",
+      "Downwards.",
+      "No movements.",
+      "Leftwards.",
+      "Rightwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=qQnRr96ve08",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0252-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  },
+  "351": {
+    "question": "In what direction did the athlete move?",
+    "options": [
+      "Downwards.",
+      "No movements.",
+      "Upwards.",
+      "Rightwards.",
+      "Leftwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=AZiAe8KINB0",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "note": "",
+    "key": "0271-00",
+    "variation": {
+      "counterfactual": 1,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    }
+  },
+  "356": {
+    "question": "In what direction did the camera move?",
+    "options": [
+      "Leftwards.",
+      "Rightwards.",
+      "No movements.",
+      "Upwards.",
+      "Downwards."
+    ],
+    "answer": 3,
+    "video_source_url": "https://www.youtube.com/watch?v=F6dBVmW7Yhk",
+    "motion_type": "direction",
+    "demonstration_type": "object",
+    "key": "0292-00",
+    "variation": {
+      "counterfactual": 0,
+      "composite": 0,
+      "zoom": 0,
+      "first_person": 0
+    },
+    "note": ""
+  }
+}

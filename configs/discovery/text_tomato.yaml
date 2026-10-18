@@ -1,0 +1,17 @@
+# Object / scene concept discovery for tomato (VQA).
+# Paths are relative to the repository root.
+dataset: tomato
+generation:  # tools/discovery/generate_text_candidates_qwen3vl.py
+  model_path: Qwen/Qwen3-VL-8B-Instruct
+  revision: 0c351dd01ed87e9c1b53cbc748cba10e6187ff3b
+  video_list: annotations/tomato/direction_ood_train.json
+  sample_fps: 2.0
+  max_new_tokens: 256  # greedy decoding
+  prompts: [object_v1, scene_v1]  # src/discovery/text/prompts.py
+filtering:  # tools/discovery/filter_text_concepts.py
+  max_len: 30
+  sim_cutoff: 0.9  # LF-CBM default
+released_vocab:  # reference vocabularies consumed by training
+  object: concepts/tomato/object_candidates.txt
+  scene: concepts/tomato/scene_candidates.txt
+# No activation/projection filtering: the VQA model uses the full vocabulary.

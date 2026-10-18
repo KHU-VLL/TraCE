@@ -1,0 +1,23 @@
+# large or local files (not part of the repository)
+/checkpoints/
+/pretrained/
+/features/
+/data/
+/work/
+/runs/
+/outputs/
+/_internal/
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+*.mp4
+*.avi
+*.gif
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.env

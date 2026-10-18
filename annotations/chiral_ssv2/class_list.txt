@@ -1,0 +1,32 @@
+Pulling [something] from left to right
+Pulling [something] from right to left
+Pushing [something] from left to right
+Pushing [something] from right to left
+Turning the camera left while filming [something]
+Turning the camera right while filming [something]
+Approaching [something] with your camera
+Moving away from [something] with your camera
+Closing [something]
+Opening [something]
+Closing [something]
+Opening [something]
+Closing [something]
+Opening [something]
+Closing [something]
+Opening [something]
+Closing [something]
+Opening [something]
+Closing [something]
+Opening [something]
+Moving [something] and [something] away from each other
+Moving [something] and [something] closer to each other
+Moving [something] away from the camera
+Moving [something] towards the camera
+Moving [something] down
+Moving [something] up
+Putting [something similar to other things that are already on the table]
+Taking [one of many similar things on the table]
+Turning the camera downwards while filming [something]
+Turning the camera upwards while filming [something]
+Folding [something]
+Unfolding [something]

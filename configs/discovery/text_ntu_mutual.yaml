@@ -1,0 +1,21 @@
+# Object / scene concept discovery for ntu_mutual (AR + VQA (AR->QA)).
+# Paths are relative to the repository root.
+dataset: ntu_mutual
+generation:  # tools/discovery/generate_text_candidates_qwen3vl.py
+  model_path: Qwen/Qwen3-VL-8B-Instruct
+  revision: 0c351dd01ed87e9c1b53cbc748cba10e6187ff3b
+  video_list: annotations/ntu_mutual/train.csv
+  sample_fps: 2.0
+  max_new_tokens: 256  # greedy decoding
+  prompts: [object_v1, scene_v1]  # src/discovery/text/prompts.py
+filtering:  # tools/discovery/filter_text_concepts.py
+  max_len: 30
+  sim_cutoff: 0.9  # LF-CBM default
+released_vocab:  # reference vocabularies consumed by training
+  object: concepts/ntu_mutual/object_candidates.txt
+  scene: concepts/ntu_mutual/scene_candidates.txt
+ar_training_filters:  # applied inside AR training, not by the discovery tools
+  clip_cutoff: 0.2  # activation filter: top-5 mean IV2 similarity > cutoff (run value)
+  interpretability_cutoff: 0.3  # projection filter on val projections (run value)
+  # NOTE: paper Table 7 lists activation/projection = 0.3/0.2;
+  # the research runs behind Table 3 (their args.txt) used the values above.

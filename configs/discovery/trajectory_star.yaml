@@ -1,0 +1,37 @@
+# Trajectory-concept discovery settings of the released STAR vocabulary
+# (Mt = 274, FINCH partition 5). Values come from the summary.json of the final
+# clustering run and the original shell scripts; "unknown" marks settings that
+# were not recorded. Paths are placeholders.
+
+flow:
+  cfg: config/a1/tar-c-t.json
+  resize_short: -1        # Charades 480p videos at their stored resolution, all frames
+  batch_size: 1
+  amp_dtype: fp32
+  video_list: [annotations/star/STAR_preprocessed_train.json, annotations/star/STAR_preprocessed_val.json]
+
+masks:
+  resize_short: -1
+  video_list: [annotations/star/STAR_preprocessed_train.json, annotations/star/STAR_preprocessed_val.json]
+
+trajectories:
+  length: 50
+  num_segments: 16
+  compute_dtype: float16  # the STAR wrapper script used float16 compute
+
+clustering:
+  # NOTE: the released run clustered only 41 videos (summary.json lists 41 input stacks although
+  # the train JSON has 3,032 unique videos); the reason is unknown.
+  sample_filter_csv: [annotations/star/STAR_preprocessed_train.json]
+  motion_percentile: 95.0
+  path_length_dtype: stack
+  partition_levels: [5]   # paper level; the original run requested [4, 5, 6, 7, 8, 9] from the same FINCH hierarchy (levels are independent outputs)
+  faiss_nlist: 4096
+  faiss_nprobe: 32
+  faiss_train_size: 1000000
+  seed: 655
+  # released vocabulary: partition 5 -> 274 clusters (675,578 clustered trajectories)
+
+labels:
+  motion_percentile: 95.0
+  path_length_dtype: stack

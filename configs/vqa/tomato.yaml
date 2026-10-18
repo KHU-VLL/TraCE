@@ -1,0 +1,25 @@
+# TraCE video question answering: TOMATO direction subset, OOD split (3-7 options)
+# Hyper-parameters are those in the config.json of the released checkpoint run
+# (identical for all datasets). Object/scene vocabularies are used unfiltered.
+dataset: tomato
+object_candidates: concepts/tomato/object_candidates.txt
+scene_candidates: concepts/tomato/scene_candidates.txt
+backbone:
+  name: InternVideo2-stage2_1b-224p-f4
+  num_frames: 4
+  input: "uniform stride (first frame of each of 4 segments), resize to 224x224, no crop"
+  text_input: "answer candidate string only (question not encoded)"
+seed: 42
+topk: 5
+lr: 0.001
+stage1_steps: 5000          # trajectory video-side BCE pre-training
+stage1_batch_size: 256
+epochs: 100                 # trajectory stage 2
+batch_size: 256
+lambda_qa: 0.2
+tau: 0.07                   # InfoNCE temperature of L_align
+align_warmup_steps: 50
+text_steps: 5000            # object / scene blocks
+text_batch_size: 256
+use_half: true
+concept_prompt: "A video of {}"
