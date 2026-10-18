@@ -24,7 +24,6 @@
 -->
 <a href="https://leewooil.github.io/TraCE_project_page/"><img src="https://img.shields.io/badge/Project-Page-4285F4?logo=googlechrome&logoColor=white" alt="Project Page"></a>
 <img src="https://img.shields.io/badge/NeurIPS-2026-8A2BE2" alt="NeurIPS 2026">
-<img src="https://img.shields.io/badge/PyTorch-2.5-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
 <a href="https://github.com/KHU-VLL/TraCE/stargazers"><img src="https://img.shields.io/github/stars/KHU-VLL/TraCE?style=flat&label=Stars&color=e3b341&logo=github" alt="GitHub stars"></a>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=KHU-VLL.TraCE&left_text=Visitors" alt="visitors">
 
