@@ -8,6 +8,9 @@ Wooil Lee<sup>1†</sup>, Junpyo Hong<sup>1†</sup>, Jongseo Lee<sup>1</sup>, T
 <sup>1</sup>Kyung Hee University, <sup>2</sup>University of California San Diego &nbsp;·&nbsp; <sup>†</sup>Equal contribution, <sup>*</sup>Corresponding author
 
 ---
+
+https://github.com/user-attachments/assets/91354a93-804a-4a0d-bc2e-278157efe5ee
+
 <p align="center">
   <img src="assets/teaser.png" alt="TraCE teaser" width="900"/>
 </p>
