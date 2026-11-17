@@ -9,8 +9,6 @@ Wooil Lee<sup>1†</sup>, Junpyo Hong<sup>1†</sup>, Jongseo Lee<sup>1</sup>, T
 
 ---
 
-https://github.com/user-attachments/assets/91354a93-804a-4a0d-bc2e-278157efe5ee
-
 <p align="center">
   <img src="assets/teaser.png" alt="TraCE teaser" width="900"/>
 </p>
